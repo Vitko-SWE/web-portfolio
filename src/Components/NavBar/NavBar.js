@@ -26,14 +26,15 @@ export default function NavBar () {
                         </Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="projects" spy={true} smooth={true}>
-                            <h5 className="brand-name" style={{color: "white", cursor: 'pointer'}}>Projects </h5>
+                        <Link to="skills" spy={true} smooth={true}>
+                            <h5 className="brand-name" style={{color: "white", cursor: 'pointer'}}>Skills </h5>
                         </Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="skills" spy={true} smooth={true}>
-                            <h5 className="brand-name" style={{color: "white", cursor: 'pointer'}}>Skills </h5>
-                        </Link>    
+                        
+                        <Link to="projects" spy={true} smooth={true}>
+                            <h5 className="brand-name" style={{color: "white", cursor: 'pointer'}}>Projects </h5>
+                        </Link>  
                     </Nav.Link>
                     <Nav.Link href={resume}>
                         <h5 className="brand-name" style={{color: "white"}}>Resume </h5>
