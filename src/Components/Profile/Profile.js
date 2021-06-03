@@ -28,37 +28,37 @@ export default function Profile () {
                 </Row>
             
             </Container>
-            <Container className="intro" id="aboutme" style={{backgroundColor: 'floralwhite'}} fluid>
+            <Container className="intro" id="aboutme" style={{padding: "0% 10% 0 10%", fontSize: "25px", textAlign: 'left', backgroundColor: 'floralwhite'}} fluid>
             <Row>
-                <Col style={{paddingTop: "2cm"}}>
+                <Col style={{paddingTop: "2cm", textAlign: 'center'}} lg={true}>
                     <h1 style={{color: "darkslategray"}}>About Me</h1>
                     <hr style={{width: "15%", border: "3px solid", color:"darkslategray"}}/>
                 </Col>
             </Row>
             <Row>
-                <Col>
-                    <p style={{padding: "5px 5cm 0 5cm", fontSize: "25px", textAlign: 'left'}}>
+                <Col sm={true}>
+                    <p >
                         I am a Computer Science graduate from Purdue University - West Lafayette. 
                         I am very dedicated, goal oriented, and a great team player. I am passionate about technology, innovation and entrepreneurship
                         and looking forward expand my horizon and learn new skills in software engineering. Some of my intrests include cloud computing, backend and fullstack
                         development. I like to work on core functionlities of the system and be involved in the development process.
                         Currently I am seeking a full time entry level software engineering position.
                     </p>
-                    <p style={{padding: "5px 5cm 0 5cm", fontSize: "25px", textAlign: 'left'}}>
+                    <p >
                       My key personality traits are:
                     </p>
                 </Col>
             </Row>
             <Row >
-                <Col style={{padding: "5px 0cm 0 5cm", fontSize: "25px"}}>
-                <ul style={{fontSize: "25px", textAlign: 'left'}}>
+                <Col style={{fontSize: "25px", textAlign: 'left'}} lg={true}>
+                <ul >
                         <li>
                             <b>Team Player - I love to work as part of a team, share my knowledge and learn from others</b>
                         </li>
                     </ul>
                 </Col>
-                <Col style={{padding: "5px 5cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", textAlign: 'left'}}>
+                <Col style={{fontSize: "25px", textAlign: 'left'}} lg={true}>
+                    <ul >
                         <li>
                             <b>Goal Oriented - I am determined to meet all deadlines and getting the job done</b>
                         </li>
@@ -66,15 +66,15 @@ export default function Profile () {
                 </Col>
             </Row >
             <Row style={{paddingBottom: "2cm"}}>
-                <Col style={{padding: "5px 0cm 0 5cm", fontSize: "25px"}}>
-                <ul style={{fontSize: "25px", textAlign: 'left'}}>
+                <Col style={{fontSize: "25px", textAlign: 'left'}}>
+                <ul>
                         <li>
                             <b>Intellectual Curiosity - I love to learn new things and always challenge myself</b>
                         </li>
                     </ul>
                 </Col>
-                <Col style={{padding: "5px 5cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", textAlign: 'left'}}>
+                <Col style={{fontSize: "25px", textAlign: 'left'}}>
+                    <ul>
                         <li>
                             <b>Ownership - It is important to take ownership and and always look at the big picture</b>
                         </li>
@@ -83,18 +83,18 @@ export default function Profile () {
             </Row >
         
         </Container>
-        <Container className="intro"  id="projects" style={{backgroundColor: 'darkslategray', opacity: "0.9", boxShadow: "0 5px 6px #ccc"}} fluid>
+        <Container className="intro"  id="projects" style={{padding: "0% 10% 0 10%", fontSize: "25px", textAlign: 'left', backgroundColor: 'darkslategray', color: "floralwhite", opacity: "0.9", boxShadow: "0 5px 6px #ccc"}} fluid>
             <Row>
                 <Col style={{paddingTop: "2cm"}}>
-                    <h1 style={{color: "floralwhite"}}>
+                    <h1 style={{color: "floralwhite", textAlign: 'center'}}>
                         Projects
                     </h1>
                     <hr style={{width: "15%", border: "3px solid", color:"floralwhite"}}/>
                 </Col>
             </Row>
             <Row style={{paddingBottom: "2cm"}}>
-                <Col style={{padding: "5px 5cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", color: "floralwhite", textAlign: 'left'}}>
+                <Col >
+                    <ul >
                         <li style={{marginBottom: "1cm"}}>
                             <b>Hopscotch 01/2021 - 05/2021:  </b>
                             <p> Hopscotch is a one-stop shop for searching, organizing, and collaborating on trips. 
@@ -140,10 +140,10 @@ export default function Profile () {
             </Row >
         
         </Container>
-        <Container className="intro"  id="skills" style={{backgroundColor: "floralwhite", boxShadow: "0 5px 6px #ccc"}} fluid>
+        <Container className="intro"  id="skills" style={{padding: "0% 10% 0 10%", fontSize: "25px", textAlign: 'left', backgroundColor: "floralwhite", color: "darkslategray", boxShadow: "0 5px 6px #ccc"}} fluid>
             <Row>
                 <Col style={{paddingTop: "2cm"}}>
-                    <h1 >
+                    <h1 style={{textAlign: "center"}}>
                         Skills
                     </h1>
                     <hr style={{width: "15%", border: "3px solid", color:"darkslategray"}}/>
@@ -151,8 +151,8 @@ export default function Profile () {
                 </Col>
             </Row>
             <Row>
-                <Col style={{padding: "5px 0cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", color: "darkslategray", textAlign: 'left'}}>
+                <Col >
+                    <ul>
                         <li style={{marginBottom: "0.5cm"}}>
                             <b>Programming Languages - </b>
                             Java, C/C++, Python
@@ -163,8 +163,8 @@ export default function Profile () {
                         </li>
                     </ul>
                 </Col>
-                <Col style={{padding: "5px 5cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", color: "darkslategray", textAlign: 'left'}}>
+                <Col>
+                    <ul>
                         <li style={{marginBottom: "0.5cm"}}>
                             <b>Web Development - </b>
                             Node.js, React.js
@@ -178,8 +178,8 @@ export default function Profile () {
                 
             </Row >
             <Row >
-                <Col style={{padding: "5px 0cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", color: "darkslategray", textAlign: 'left'}}>
+                <Col >
+                    <ul>
                         <li style={{marginBottom: "0.5cm"}}>
                             <b>Systems - </b>
                             Unix/Linux
@@ -188,8 +188,8 @@ export default function Profile () {
                 </Col>
             </Row >
             <Row style={{paddingBottom: "2cm"}}>
-                <Col style={{padding: "5px 0cm 0 5cm", fontSize: "25px"}}>
-                    <ul style={{fontSize: "25px", color: "darkslategray", textAlign: 'left'}}>
+                <Col >
+                    <ul>
                         <li style={{marginBottom: "0.5cm"}}>
                             <b>Familiar with: </b>
                             X86 Assembly programming, HTML, CSS, JavaScript, R
@@ -209,7 +209,7 @@ export default function Profile () {
             </Row>
             <Row>
                 <Col style={{paddingBottom: "3cm"}}>
-                <b style={{color:"floralwhite", fontSize: "25px"}}>vitalykovtunenko92@gmail.com</b>
+                    <b style={{color:"floralwhite", fontSize: "25px"}}>vitalykovtunenko92@gmail.com</b>
                 </Col>
             </Row>
         </Container>

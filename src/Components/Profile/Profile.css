@@ -1,13 +1,12 @@
 
 .intro {
+    /* display: flex; */
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 15px;
+    font-size: 100%;
     line-height: 1.42857143;
     color: #2c3e50;
     padding: auto;
+    /* position: relative; */
+    
 }
 
-#projects {
-    transition-duration: 5s;
-    transition-property: width height background-color;
-}

@@ -1,5 +1,6 @@
 {
   "name": "web_portofolio",
+  "homepage": "http://Vitko-SWE.github.io/web-portofolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,15 +9,19 @@
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
-    "react-pdf": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "1.1.5",
     "react-scroll": "^1.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
   }
 }
